@@ -1,0 +1,690 @@
+@font-face {
+  font-family: "holberton_school-icon";
+  src: url("./icons/fonts/holberton_school-icon.eot?sq4eq4");
+  src: url("./icons/fonts/holberton_school-icon.eot?sq4eq4#iefix")
+      format("embedded-opentype"),
+    url("./icons/fonts/holberton_school-icon.ttf?sq4eq4") format("truetype"),
+    url("./icons/fonts/holberton_school-icon.woff?sq4eq4") format("woff"),
+    url("./icons/fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="holberton_school-icon-"],
+[class*=" holberton_school-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "holberton_school-icon" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.holberton_school-icon-arrow_1:before {
+  content: "\e900";
+}
+.holberton_school-icon-arrow_2:before {
+  content: "\e901";
+}
+.holberton_school-icon-arrow_3:before {
+  content: "\e902";
+}
+.holberton_school-icon-arrow_4:before {
+  content: "\e903";
+}
+.holberton_school-icon-arrow_5:before {
+  content: "\e904";
+}
+.holberton_school-icon-check:before {
+  content: "\e905";
+}
+.holberton_school-icon-ic_bag:before {
+  content: "\e906";
+}
+.holberton_school-icon-ic_cart:before {
+  content: "\e907";
+}
+.holberton_school-icon-ic_facebook:before {
+  content: "\e908";
+}
+.holberton_school-icon-ic_hearing:before {
+  content: "\e909";
+}
+.holberton_school-icon-ic_instagram:before {
+  content: "\e90a";
+}
+.holberton_school-icon-ic_laptop:before {
+  content: "\e90b";
+}
+.holberton_school-icon-ic_money:before {
+  content: "\e90c";
+}
+.holberton_school-icon-ic_music:before {
+  content: "\e90d";
+}
+.holberton_school-icon-ic_sound:before {
+  content: "\e90e";
+}
+.holberton_school-icon-ic_twitter:before {
+  content: "\e90f";
+}
+.holberton_school-icon-ic_video:before {
+  content: "\e910";
+}
+.holberton_school-icon-menu:before {
+  content: "\e911";
+}
+.holberton_school-icon-search_1:before {
+  content: "\e912";
+}
+.holberton_school-icon-search_2:before {
+  content: "\e913";
+}
+.holberton_school-icon-star:before {
+  content: "\e914";
+}
+
+:root {
+  --max-width: 1150px;
+  --purple-color: #c271ff;
+  --blue-color: #071629;
+  --section-padding: 90px 0;
+  --table-row-bottom-border: 1px solid #394454;
+  --green-color: #82d24f;
+  --black-color: #071629;
+  --pale-purple-color: #d194fd;
+  --search-border-color: #eacffe;
+}
+
+* {
+  font-family: "Source sans pro", "Spin Cycle", "holberton_school-icon",
+    "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  color: white;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+:root {
+  --purple: #c271ff;
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #696969;
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+}
+
+.my-back-home-image {
+  background-image: url("images/pic_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+  background-position: center;
+}
+
+@media screen and (max-width: 767px) {
+  .my-back-home-image {
+    height: 100vh;
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .my-back-home-image {
+    height: 100%;
+  }
+}
+.header-logo {
+  width: 50%;
+}
+
+.links {
+  display: flex;
+  font-family: "Source Sans Pro";
+  justify-content: space-around;
+}
+
+.inner {
+  font-family: Source Sans Pro;
+  font-weight: bold;
+  font-size: 120px;
+  line-height: 150px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.title {
+  margin-top: 5rem;
+}
+
+.subtitle {
+  justify-content: center;
+}
+
+.smiles {
+  margin-right: 2rem;
+}
+
+.laugh {
+  margin-left: 2rem;
+}
+
+.btn {
+  background-color: var(--purple) !important;
+  display: block;
+  margin-top: -6rem;
+}
+
+.learn {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: var(--purple);
+  margin-right: 0.5rem;
+}
+
+.learn-two {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: lighter;
+  text-align: center;
+  color: #ffffff;
+}
+
+.person-name {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 27px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.team-member img {
+  margin-top: 3rem;
+  width: 125px;
+  height: 125px;
+}
+
+.person-info {
+  font-family: Source Sans Pro;
+  font-style: italic;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* Variables
+  ============================= */
+
+:root {
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-grey: #a0a0a0;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+}
+
+/* Navbar
+      ============================= */
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-menu {
+    display: none;
+    flex: 1;
+  }
+  :root {
+    --nav-item-margin: 0;
+  }
+  .header .nav {
+    flex-direction: column;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+  }
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .menu-icon {
+  cursor: pointer;
+  padding: 2.5rem;
+  position: relative;
+  user-select: none;
+  display: none;
+}
+
+.header .menu-icon .navicon {
+  background: var(--color-white);
+  display: block;
+  width: 2rem;
+  height: 0.2rem;
+  position: relative;
+  transition: background 0.2s ease-out;
+}
+
+.header .menu-icon .navicon::before,
+.header .menu-icon .navicon::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: var(--color-white);
+  transition: all 0.2s ease-out;
+}
+
+.header .menu-icon .navicon::before {
+  top: 0.7rem;
+}
+
+.header .menu-icon .navicon::after {
+  top: -0.7rem;
+}
+
+/* menu btn */
+.header .menu-btn {
+  display: none;
+}
+
+.menu-btn:checked ~ .navbar-menu {
+  display: block;
+}
+
+.menu-btn:checked ~ .navbar-menu .nav {
+  max-height: 100%;
+  overflow: inherit;
+}
+
+.header .menu-btn:checked + .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked + .menu-icon .navicon::before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked + .menu-icon .navicon::after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked + .menu-icon .navicon::before,
+.header .menu-btn:checked + .menu-icon .navicon::after {
+  top: 0;
+}
+
+@media (max-width: 767px) {
+  :root {
+    --header-padding: 2rem 0 0;
+  }
+
+  .header-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header .menu-icon {
+    display: block;
+    margin-left: -4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  .header-logo img:first-child {
+    width: 3rem;
+    height: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+/* CAROUSEL */
+
+.carousel {
+  background: var(--purple);
+}
+
+.my-carousel-picture {
+  margin-left: 8rem;
+  margin-top: 2rem;
+}
+
+.my-quote-carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  margin-left: 2rem;
+}
+
+.my-quote-carousel p,
+.my-quote-carousel h4 {
+  font-size: 22px;
+}
+
+@media (max-width: 480px) {
+  .arrow {
+    margin-top: -13rem;
+  }
+  .my-quote-carousel {
+    margin-top: 2rem;
+  }
+}
+
+/* Videos CAROUSEL SECTION */
+
+.purple {
+  color: var(--purple);
+}
+
+.tutorial-section {
+  padding: 4rem;
+}
+
+.video-carousel-img-profile {
+  height: 30px;
+  width: 30px;
+}
+
+.carousel-star-icon {
+  height: 1rem;
+  width: 1rem;
+}
+
+.videos-slides-container {
+  padding: 0 100px;
+}
+
+.videos-slides-container .carousel-inner {
+  flex-basis: 50% !important;
+}
+
+/* FREE MEMBERSHIP SECTION */
+
+.free-membership-section {
+  background-color: var(--blue-color);
+  padding: var(--section-padding);
+}
+
+.free-membership-section span {
+  color: var(--purple);
+}
+
+.free-membership-section > div > div {
+  margin-bottom: 60px;
+}
+
+.free-membership-section .free-membership-item-description {
+  max-width: 250px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: var(--blue-color);
+  padding: var(--section-padding);
+}
+
+footer .logo-container {
+  float: none;
+}
+
+footer > div:first-child {
+  margin-bottom: 50px;
+}
+
+footer > div:last-child {
+  opacity: 35%;
+}
+
+.social-media-icons > div:first-child {
+  width: 130px;
+  max-width: 130px;
+}
+
+.social-media-icons i {
+  font-size: 30px;
+  color: white;
+}
+
+.social-media-icons i:not(:first-child) {
+  margin-left: 20px;
+}
+
+/* ---------- PRICING PAGE ----------  */
+
+main.pricing-main .hero-section {
+  background-image: url("./images/pic_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+  background-position: center;
+}
+
+.text-logo {
+  margin-top: 200px;
+  flex-wrap: wrap;
+}
+
+.links li a.active {
+  color: var(--purple-color);
+  border-bottom: 2px solid white;
+  padding-bottom: 4px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Pricing Table styling */
+.th-title {
+  font-size: 44px;
+}
+
+.table-btn {
+  padding: 13px 36px;
+}
+
+table .table-btn {
+  min-width: 180px;
+}
+
+.table-subtitle {
+  font-size: 12px;
+  opacity: 50%;
+  font-weight: 400;
+}
+
+.tr-title {
+  font-weight: 400 !important;
+  font-size: 18px;
+}
+
+.bordered-table-row {
+  border-bottom: var(--table-row-bottom-border);
+}
+
+.table td,
+.table th {
+  padding: 1.25rem;
+}
+
+table i {
+  color: var(--green-color);
+  font-size: 28px;
+}
+
+@media (max-width: 480px) {
+  main.pricing-main .hero-section {
+    width: fit-content;
+  }
+
+  thead {
+    display: none;
+  }
+}
+
+/* FAQ Section */
+
+.faq-section {
+  padding: var(--section-padding);
+}
+
+.faq-section h1,
+.faq-section h2,
+.faq-section .faq-answer {
+  color: var(--black-color) !important;
+}
+
+.faq-section h1 {
+  font-size: 60px !important;
+  margin-bottom: 75px;
+}
+
+.one-faq h2 {
+  margin-left: -2px !important;
+}
+
+.faq-section .faq-answer {
+  font-weight: 14px;
+  opacity: 50%;
+  margin-bottom: 75px;
+  text-align: justify;
+}
+
+/* --------- COURSES PAGE ---------- */
+
+main.courses-main .hero-section {
+  background-image: url("./images/pic_3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+  background-position: center;
+}
+
+/* HERO Section */
+.pricing-page-title {
+  font-size: 32px !important;
+  font-family: Coiny !important;
+  margin-bottom: 0px;
+}
+
+.purple-text {
+  color: var(--purple-color);
+}
+
+/* SEARCH Filters */
+
+.courses-p-body {
+  height: 100vh;
+}
+
+.search-filters {
+  background-color: var(--purple-color);
+}
+
+.search-filters .search-element {
+  border-bottom: 1px solid !important;
+  border-color: var(--search-border-color) !important;
+}
+
+.search-filters label {
+  font-weight: bolder;
+  font-size: 12px !important;
+}
+
+.search-filters input {
+  background-color: var(--pale-purple-color);
+  font-size: 24px;
+  opacity: 75%;
+  color: black !important;
+  padding-left: 40px;
+}
+
+.input-icon {
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  top: 46px;
+  left: 22px;
+}
+
+.search-filters input:focus {
+  color: black;
+}
+
+.search-filters input:focus ~ .input-icon {
+  /* display: none; */
+  color: var(--black-color);
+}
+
+.search-filters input::placeholder {
+  color: white;
+  font-size: 24px;
+  opacity: 50%;
+}
+
+/* Dropdown search */
+
+.dropdown button {
+  font-size: 23px;
+  font-weight: lighter;
+}
+
+.dropdown button.search-element:first-child {
+  background-color: var(--pale-purple-color) !important;
+}
+.dropdown button:first-child::after {
+  content: "\e904";
+  color: white;
+  font-size: 22px;
+  float: right;
+  margin-top: 2px;
+}
+
+.dropdown-menu {
+  width: 100%;
+}
+
+.dropdown-menu button:hover {
+  color: var(--purple-color);
+}
